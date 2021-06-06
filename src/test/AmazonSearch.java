@@ -71,6 +71,7 @@ public class AmazonSearch {
 		for(WebElement e : results) {
 			  System.out.println(e.getText());
 		}
+		driver.close();
 
 	}
 
